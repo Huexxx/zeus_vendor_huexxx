@@ -16,8 +16,8 @@ PRODUCT_MANUFACTURER := LGE
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=hammerhead \
-    BUILD_FINGERPRINT=google/hammerhead/hammerhead:4.4/KRT16M/893803:user/release-keys \
-    PRIVATE_BUILD_DESC="hammerhead-user 4.4 KRT16M 893803 release-keys"
+    BUILD_FINGERPRINT=google/hammerhead/hammerhead:4.4/KRT16S/920375:user/release-keys \
+    PRIVATE_BUILD_DESC="hammerhead-user 4.4 KRT16S 920375 release-keys"
 
 PRODUCT_PACKAGES += \
     Launcher3
