@@ -3,6 +3,9 @@ PRODUCT_NAME := huexxx
 PRODUCT_BRAND := huexxx
 PRODUCT_DEVICE := generic
 
+# Embed superuser
+SUPERUSER_EMBEDDED := true
+
 PRODUCT_PROPERTY_OVERRIDES += \
     keyguard.no_require_sim=true \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
@@ -23,7 +26,4 @@ PRODUCT_COPY_FILES += \
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
-
-# Embed superuser
-SUPERUSER_EMBEDDED := true
 

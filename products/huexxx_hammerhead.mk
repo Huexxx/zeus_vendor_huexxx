@@ -21,6 +21,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_PACKAGES += \
     Launcher3 \
+    Superuser \
     su
 
 PRODUCT_PACKAGES += \
