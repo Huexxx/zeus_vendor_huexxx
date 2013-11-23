@@ -20,7 +20,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="hammerhead-user 4.4 KRT16S 920375 release-keys"
 
 PRODUCT_PACKAGES += \
-    Launcher3
+    Launcher3 \
+    su
 
 PRODUCT_PACKAGES += \
     Stk
