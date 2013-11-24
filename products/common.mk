@@ -16,6 +16,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dateformat=MM-dd-yyyy \
     ro.com.android.dataroaming=false
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.selinux=1 \
+    persist.sys.root_access=1
+
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/huexxx/overlay/common
 
