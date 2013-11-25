@@ -31,3 +31,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
+# Prebuilt libmmcamera_interface
+PRODUCT_COPY_FILES += \
+    vendor/huexxx/proprietary/common/system/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so
+
