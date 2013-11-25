@@ -21,6 +21,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_PACKAGES += \
     CellBroadcastReceiver \
+    com.android.nfc_extras \
     Launcher3 \
     Stk \
     Superuser \
