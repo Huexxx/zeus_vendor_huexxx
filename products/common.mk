@@ -29,3 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/huexxx/proprietary/common/system/etc/init.d/00banner:system/etc/init.d/00banner \
     vendor/huexxx/proprietary/common/system/bin/sysinit:system/bin/sysinit
 
+# Prebuilt libmmcamera_interface
+PRODUCT_COPY_FILES += \
+    vendor/huexxx/proprietary/common/system/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so
+
