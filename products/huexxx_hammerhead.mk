@@ -60,3 +60,7 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/audio/ringtones/RobotsforEveryone.ogg:system/media/audio/ringtones/RobotsforEveryone.ogg \
         $(LOCAL_PATH)/audio/ringtones/SpagnolaOrchestration.ogg:system/media/audio/ringtones/SpagnolaOrchestration.ogg
 
+# Nexus5 bootanimation
+PRODUCT_COPY_FILES += \
+        $(LOCAL_PATH)/bootanimation.zip:system/media/bootanimation.zip
+
