@@ -35,3 +35,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/huexxx/proprietary/common/system/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so
 
+# Add SunBeam animated wallpaper
+PRODUCT_COPY_FILES += \
+    vendor/huexxx/proprietary/common/system/app/SunBeam.apk:system/app/SunBeam.apk
+
