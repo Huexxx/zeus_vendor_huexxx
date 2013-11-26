@@ -8,5 +8,8 @@
         <item>com.google.android.gms</item>
     </string-array>
 
+    <!-- Enable lockscreen translucent decor by default for n4 & 5-->
+    <bool name="config_enableLockScreenTranslucentDecor">true</bool>
+
 </resources>
 
