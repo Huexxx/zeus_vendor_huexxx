@@ -39,3 +39,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/huexxx/proprietary/common/system/app/SunBeam.apk:system/app/SunBeam.apk
 
+# init.d support
+PRODUCT_COPY_FILES += \
+    vendor/huexxx/proprietary/common/system/etc/init.d/00banner:system/etc/init.d/00banner \
+    vendor/huexxx/proprietary/common/system/bin/sysinit:system/bin/sysinit

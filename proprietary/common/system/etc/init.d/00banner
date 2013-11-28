@@ -1,0 +1,7 @@
+#!/system/bin/sh
+#
+# Print startup info
+#
+L="log -p i -t huexxx"
+
+$L "Welcome to Android `getprop ro.build.version.release` / Zeus ROM by Huexxx";
