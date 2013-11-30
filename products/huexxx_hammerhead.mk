@@ -23,7 +23,6 @@ PRODUCT_PACKAGES += \
     CellBroadcastReceiver \
     com.android.nfc_extras \
     Launcher3 \
-    PartnerBookmarksProvider \
     Stk \
     Superuser \
     su \
