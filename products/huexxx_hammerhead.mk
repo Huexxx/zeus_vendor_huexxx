@@ -25,7 +25,8 @@ PRODUCT_PACKAGES += \
     Stk \
     Superuser \
     su \
-    Tag
+    Tag \
+    Torch
 
 # Complete sounds
 LOCAL_PATH:= frameworks/base/data/sounds
