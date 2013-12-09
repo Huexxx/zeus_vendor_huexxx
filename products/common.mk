@@ -46,9 +46,11 @@ PRODUCT_COPY_FILES += \
     vendor/huexxx/proprietary/common/system/app/Chrome.apk:system/app/Chrome.apk \
     vendor/huexxx/proprietary/common/system/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk\
     vendor/huexxx/proprietary/common/system/app/GalleryGoogle.apk:system/app/GalleryGoogle.apk \
+    vendor/huexxx/proprietary/common/system/app/GalleryGoogle.odex:system/app/GalleryGoogle.odex \
     vendor/huexxx/proprietary/common/system/app/GenieWidget.apk:system/app/GenieWidget.apk \
     vendor/huexxx/proprietary/common/system/app/Gmail2.apk:system/app/Gmail2.apk \
     vendor/huexxx/proprietary/common/system/app/GoogleCamera.apk:system/app/GoogleCamera.apk \
+    vendor/huexxx/proprietary/common/system/app/GoogleCamera.odex:system/app/GoogleCamera.odex \
     vendor/huexxx/proprietary/common/system/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
     vendor/huexxx/proprietary/common/system/app/GoogleHome.apk:system/app/GoogleHome.apk \
     vendor/huexxx/proprietary/common/system/app/GoogleTTS.apk:system/app/GoogleTTS.apk \
@@ -65,6 +67,7 @@ PRODUCT_COPY_FILES += \
     vendor/huexxx/proprietary/common/system/etc/permissions/features.xml:system/etc/permissions/features.xml \
     vendor/huexxx/proprietary/common/system/etc/preferred-apps/google.xml:system/etc/preferred-apps/google.xml \
     vendor/huexxx/proprietary/common/system/framework/com.google.android.camera2.jar:system/framework/com.google.android.camera2.jar \
+    vendor/huexxx/proprietary/common/system/framework/com.google.android.camera2.odex:system/framework/com.google.android.camera2.odex \
     vendor/huexxx/proprietary/common/system/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
     vendor/huexxx/proprietary/common/system/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
     vendor/huexxx/proprietary/common/system/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
