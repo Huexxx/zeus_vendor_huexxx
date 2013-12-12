@@ -63,6 +63,8 @@ PRODUCT_COPY_FILES += \
     vendor/huexxx/proprietary/common/system/app/GoogleTTS.apk:system/app/GoogleTTS.apk \
     vendor/huexxx/proprietary/common/system/app/GoogleTTS.odex:system/app/GoogleTTS.odex \
     vendor/huexxx/proprietary/common/system/app/Hangouts.apk:system/app/Hangouts.apk \
+    vendor/huexxx/proprietary/common/system/app/LatinImeGoogle.apk:system/app/LatinImeGoogle.apk \
+    vendor/huexxx/proprietary/common/system/app/LatinImeGoogle.odex:system/app/LatinImeGoogle.odex \
     vendor/huexxx/proprietary/common/system/app/Maps.apk:system/app/Maps.apk \
     vendor/huexxx/proprietary/common/system/app/PartnerBookmarksProvider.apk:system/app/PartnerBookmarksProvider.apk \
     vendor/huexxx/proprietary/common/system/app/PartnerBookmarksProvider.odex:system/app/PartnerBookmarksProvider.odex \
@@ -98,6 +100,8 @@ PRODUCT_COPY_FILES += \
     vendor/huexxx/proprietary/common/system/lib/libgoogle_recognizer_jni_l.so:system/lib/libgoogle_recognizer_jni_l.so \
     vendor/huexxx/proprietary/common/system/lib/libjni_eglfence.so:system/lib/libjni_eglfence.so \
     vendor/huexxx/proprietary/common/system/lib/libjni_filtershow_filters.so:system/lib/libjni_filtershow_filters.so \
+    vendor/huexxx/proprietary/common/system/lib/libjni_latinime.so:system/lib/libjni_latinime.so \
+    vendor/huexxx/proprietary/common/system/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so \
     vendor/huexxx/proprietary/common/system/lib/libjni_mosaic.so:system/lib/libjni_mosaic.so \
     vendor/huexxx/proprietary/common/system/lib/libjni_t13n_shared_engine.so:system/lib/libjni_t13n_shared_engine.so \
     vendor/huexxx/proprietary/common/system/lib/liblightcycle.so:system/lib/liblightcycle.so \
