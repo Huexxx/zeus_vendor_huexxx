@@ -56,7 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/huexxx/proprietary/common/system/app/GoogleTTS.apk:system/app/GoogleTTS.apk \
     vendor/huexxx/proprietary/common/system/app/Hangouts.apk:system/app/Hangouts.apk \
     vendor/huexxx/proprietary/common/system/app/Maps.apk:system/app/Maps.apk \
-    vendor/huexxx/proprietary/common/system/app/MediaUploader.apk:system/app/MediaUploader.apk \
     vendor/huexxx/proprietary/common/system/app/PlusOne.apk:system/app/PlusOne.apk \
     vendor/huexxx/proprietary/common/system/app/YouTube.apk:system/app/YouTube.apk \
     vendor/huexxx/proprietary/common/system/etc/g.prop:system/etc/g.prop \
@@ -114,7 +113,6 @@ PRODUCT_COPY_FILES += \
     vendor/huexxx/proprietary/common/system/priv-app/GoogleLoginService.apk:system/priv-app/GoogleLoginService.apk \
     vendor/huexxx/proprietary/common/system/priv-app/GooglePartnerSetup.apk:system/priv-app/GooglePartnerSetup.apk \
     vendor/huexxx/proprietary/common/system/priv-app/GoogleServicesFramework.apk:system/priv-app/GoogleServicesFramework.apk \
-    vendor/huexxx/proprietary/common/system/priv-app/OneTimeInitializer.apk:system/priv-app/OneTimeInitializer.apk \
     vendor/huexxx/proprietary/common/system/priv-app/Phonesky.apk:system/priv-app/Phonesky.apk \
     vendor/huexxx/proprietary/common/system/priv-app/PrebuiltGmsCore.apk:system/priv-app/PrebuiltGmsCore.apk \
     vendor/huexxx/proprietary/common/system/priv-app/SetupWizard.apk:system/priv-app/SetupWizard.apk \
