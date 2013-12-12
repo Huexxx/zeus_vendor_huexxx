@@ -42,23 +42,34 @@ PRODUCT_COPY_FILES += \
 
 # Add basic gapps
 PRODUCT_COPY_FILES += \
+    vendor/huexxx/proprietary/common/system/app/BrowserProviderProxy.apk:system/app/BrowserProviderProxy.apk \
+    vendor/huexxx/proprietary/common/system/app/BrowserProviderProxy.odex:system/app/BrowserProviderProxy.odex \
     vendor/huexxx/proprietary/common/system/app/CalendarGoogle.apk:system/app/CalendarGoogle.apk \
+    vendor/huexxx/proprietary/common/system/app/CalendarGoogle.odex:system/app/CalendarGoogle.odex \
     vendor/huexxx/proprietary/common/system/app/Chrome.apk:system/app/Chrome.apk \
-    vendor/huexxx/proprietary/common/system/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk\
+    vendor/huexxx/proprietary/common/system/app/FaceLock.apk:system/app/FaceLock.apk \
+    vendor/huexxx/proprietary/common/system/app/FaceLock.odex:system/app/FaceLock.odex \
     vendor/huexxx/proprietary/common/system/app/GalleryGoogle.apk:system/app/GalleryGoogle.apk \
     vendor/huexxx/proprietary/common/system/app/GalleryGoogle.odex:system/app/GalleryGoogle.odex \
     vendor/huexxx/proprietary/common/system/app/GenieWidget.apk:system/app/GenieWidget.apk \
+    vendor/huexxx/proprietary/common/system/app/GenieWidget.odex:system/app/GenieWidget.odex \
     vendor/huexxx/proprietary/common/system/app/Gmail2.apk:system/app/Gmail2.apk \
+    vendor/huexxx/proprietary/common/system/app/Gmail2.odex:system/app/Gmail2.odex \
     vendor/huexxx/proprietary/common/system/app/GoogleCamera.apk:system/app/GoogleCamera.apk \
     vendor/huexxx/proprietary/common/system/app/GoogleCamera.odex:system/app/GoogleCamera.odex \
     vendor/huexxx/proprietary/common/system/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
+    vendor/huexxx/proprietary/common/system/app/GoogleContactsSyncAdapter.odex:system/app/GoogleContactsSyncAdapter.odex \
     vendor/huexxx/proprietary/common/system/app/GoogleHome.apk:system/app/GoogleHome.apk \
     vendor/huexxx/proprietary/common/system/app/GoogleTTS.apk:system/app/GoogleTTS.apk \
+    vendor/huexxx/proprietary/common/system/app/GoogleTTS.odex:system/app/GoogleTTS.odex \
     vendor/huexxx/proprietary/common/system/app/Hangouts.apk:system/app/Hangouts.apk \
     vendor/huexxx/proprietary/common/system/app/Maps.apk:system/app/Maps.apk \
+    vendor/huexxx/proprietary/common/system/app/PartnerBookmarksProvider.apk:system/app/PartnerBookmarksProvider.apk \
+    vendor/huexxx/proprietary/common/system/app/PartnerBookmarksProvider.odex:system/app/PartnerBookmarksProvider.odex \
     vendor/huexxx/proprietary/common/system/app/PlusOne.apk:system/app/PlusOne.apk \
+    vendor/huexxx/proprietary/common/system/app/QuickOffice.apk:system/app/QuickOffice.apk \
+    vendor/huexxx/proprietary/common/system/app/Street.apk:system/app/Street.apk \
     vendor/huexxx/proprietary/common/system/app/YouTube.apk:system/app/YouTube.apk \
-    vendor/huexxx/proprietary/common/system/etc/g.prop:system/etc/g.prop \
     vendor/huexxx/proprietary/common/system/etc/permissions/com.google.android.camera2.xml:system/etc/permissions/com.google.android.camera2.xml \
     vendor/huexxx/proprietary/common/system/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
     vendor/huexxx/proprietary/common/system/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
@@ -68,11 +79,15 @@ PRODUCT_COPY_FILES += \
     vendor/huexxx/proprietary/common/system/framework/com.google.android.camera2.jar:system/framework/com.google.android.camera2.jar \
     vendor/huexxx/proprietary/common/system/framework/com.google.android.camera2.odex:system/framework/com.google.android.camera2.odex \
     vendor/huexxx/proprietary/common/system/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
+    vendor/huexxx/proprietary/common/system/framework/com.google.android.maps.odex:system/framework/com.google.android.maps.odex \
     vendor/huexxx/proprietary/common/system/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
+    vendor/huexxx/proprietary/common/system/framework/com.google.android.media.effects.odex:system/framework/com.google.android.media.effects.odex \
     vendor/huexxx/proprietary/common/system/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
+    vendor/huexxx/proprietary/common/system/framework/com.google.widevine.software.drm.odex:system/framework/com.google.widevine.software.drm.odex \
     vendor/huexxx/proprietary/common/system/lib/libAppDataSearch.so:system/lib/libAppDataSearch.so \
     vendor/huexxx/proprietary/common/system/lib/libRSSupport.so:system/lib/libRSSupport.so \
     vendor/huexxx/proprietary/common/system/lib/libchromeview.so:system/lib/libchromeview.so \
+    vendor/huexxx/proprietary/common/system/lib/libfacelock_jni.so:system/lib/libfacelock_jni.so \
     vendor/huexxx/proprietary/common/system/lib/libfacetracker.so:system/lib/libfacetracker.so \
     vendor/huexxx/proprietary/common/system/lib/libfilterframework_jni.so:system/lib/libfilterframework_jni.so \
     vendor/huexxx/proprietary/common/system/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
@@ -108,14 +123,23 @@ PRODUCT_COPY_FILES += \
     vendor/huexxx/proprietary/common/system/lib/libwebrtc_audio_coding.so:system/lib/libwebrtc_audio_coding.so \
     vendor/huexxx/proprietary/common/system/lib/libwebrtc_audio_preprocessing.so:system/lib/libwebrtc_audio_preprocessing.so \
     vendor/huexxx/proprietary/common/system/priv-app/CalendarProvider.apk:system/priv-app/CalendarProvider.apk \
+    vendor/huexxx/proprietary/common/system/priv-app/CalendarProvider.odex:system/priv-app/CalendarProvider.odex \
     vendor/huexxx/proprietary/common/system/priv-app/GoogleBackupTransport.apk:system/priv-app/GoogleBackupTransport.apk \
+    vendor/huexxx/proprietary/common/system/priv-app/GoogleBackupTransport.odex:system/priv-app/GoogleBackupTransport.odex \
     vendor/huexxx/proprietary/common/system/priv-app/GoogleFeedback.apk:system/priv-app/GoogleFeedback.apk \
+    vendor/huexxx/proprietary/common/system/priv-app/GoogleFeedback.odex:system/priv-app/GoogleFeedback.odex \
     vendor/huexxx/proprietary/common/system/priv-app/GoogleLoginService.apk:system/priv-app/GoogleLoginService.apk \
+    vendor/huexxx/proprietary/common/system/priv-app/GoogleLoginService.odex:system/priv-app/GoogleLoginService.odex \
+    vendor/huexxx/proprietary/common/system/priv-app/GoogleOneTimeInitializer.apk:system/priv-app/GoogleOneTimeInitializer.apk \
+    vendor/huexxx/proprietary/common/system/priv-app/GoogleOneTimeInitializer.odex:system/priv-app/GoogleOneTimeInitializer.odex \
     vendor/huexxx/proprietary/common/system/priv-app/GooglePartnerSetup.apk:system/priv-app/GooglePartnerSetup.apk \
+    vendor/huexxx/proprietary/common/system/priv-app/GooglePartnerSetup.odex:system/priv-app/GooglePartnerSetup.odex \
     vendor/huexxx/proprietary/common/system/priv-app/GoogleServicesFramework.apk:system/priv-app/GoogleServicesFramework.apk \
+    vendor/huexxx/proprietary/common/system/priv-app/GoogleServicesFramework.odex:system/priv-app/GoogleServicesFramework.odex \
     vendor/huexxx/proprietary/common/system/priv-app/Phonesky.apk:system/priv-app/Phonesky.apk \
     vendor/huexxx/proprietary/common/system/priv-app/PrebuiltGmsCore.apk:system/priv-app/PrebuiltGmsCore.apk \
     vendor/huexxx/proprietary/common/system/priv-app/SetupWizard.apk:system/priv-app/SetupWizard.apk \
+    vendor/huexxx/proprietary/common/system/priv-app/SetupWizard.odex:system/priv-app/SetupWizard.odex \
     vendor/huexxx/proprietary/common/system/priv-app/Velvet.apk:system/priv-app/Velvet.apk \
     vendor/huexxx/proprietary/common/system/usr/srec/en-US/c_fst:system/usr/srec/en-US/c_fst \
     vendor/huexxx/proprietary/common/system/usr/srec/en-US/clg:system/usr/srec/en-US/clg \
