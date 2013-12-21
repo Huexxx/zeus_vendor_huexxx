@@ -45,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/huexxx/proprietary/common/system/app/BrowserProviderProxy.apk:system/app/BrowserProviderProxy.apk \
     vendor/huexxx/proprietary/common/system/app/BrowserProviderProxy.odex:system/app/BrowserProviderProxy.odex \
     vendor/huexxx/proprietary/common/system/app/CalendarGoogle.apk:system/app/CalendarGoogle.apk \
-    vendor/huexxx/proprietary/common/system/app/CalendarGoogle.odex:system/app/CalendarGoogle.odex \
     vendor/huexxx/proprietary/common/system/app/Chrome.apk:system/app/Chrome.apk \
     vendor/huexxx/proprietary/common/system/app/FaceLock.apk:system/app/FaceLock.apk \
     vendor/huexxx/proprietary/common/system/app/FaceLock.odex:system/app/FaceLock.odex \
@@ -54,7 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/huexxx/proprietary/common/system/app/GenieWidget.apk:system/app/GenieWidget.apk \
     vendor/huexxx/proprietary/common/system/app/GenieWidget.odex:system/app/GenieWidget.odex \
     vendor/huexxx/proprietary/common/system/app/Gmail2.apk:system/app/Gmail2.apk \
-    vendor/huexxx/proprietary/common/system/app/Gmail2.odex:system/app/Gmail2.odex \
     vendor/huexxx/proprietary/common/system/app/GoogleCamera.apk:system/app/GoogleCamera.apk \
     vendor/huexxx/proprietary/common/system/app/GoogleCamera.odex:system/app/GoogleCamera.odex \
     vendor/huexxx/proprietary/common/system/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
