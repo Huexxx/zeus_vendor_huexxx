@@ -23,8 +23,6 @@ PRODUCT_PACKAGES += \
     CellBroadcastReceiver \
     com.android.nfc_extras \
     Stk \
-    Superuser \
-    su \
     Tag \
     Torch
 
