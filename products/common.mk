@@ -172,3 +172,14 @@ PRODUCT_COPY_FILES += \
     vendor/huexxx/proprietary/common/system/usr/srec/en-US/rescoring_lm:system/usr/srec/en-US/rescoring_lm \
     vendor/huexxx/proprietary/common/system/usr/srec/en-US/wordlist:system/usr/srec/en-US/wordlist
 
+# Add more gapps files from 4.4.3
+PRODUCT_COPY_FILES += \
+    vendor/huexxx/proprietary/common/system/etc/permissions/com.google.android.ble.xml:system/etc/permissions/com.google.android.ble.xml \
+    vendor/huexxx/proprietary/common/system/framework/com.google.android.ble.jar:system/framework/com.google.android.ble.jar \
+    vendor/huexxx/proprietary/common/system/framework/com.google.android.ble.odex:system/framework/com.google.android.ble.odex \
+    vendor/huexxx/proprietary/common/system/lib/libgcastv2_base.so:system/lib/libgcastv2_base.so \
+    vendor/huexxx/proprietary/common/system/lib/libgcastv2_support.so:system/lib/libgcastv2_support.so \
+    vendor/huexxx/proprietary/common/system/lib/libgoogle_hotword_jni.so:system/lib/libgoogle_hotword_jni.so \
+    vendor/huexxx/proprietary/common/system/lib/libjgcastservice.so:system/lib/libjgcastservice.so \
+    vendor/huexxx/proprietary/common/system/lib/libjhead.so:system/lib/libjhead.so \
+    vendor/huexxx/proprietary/common/system/lib/libjhead_jni.so:system/lib/libjhead_jni.so
