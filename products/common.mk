@@ -42,6 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/huexxx/proprietary/common/system/app/BrowserProviderProxy.apk:system/app/BrowserProviderProxy.apk \
     vendor/huexxx/proprietary/common/system/app/BrowserProviderProxy.odex:system/app/BrowserProviderProxy.odex \
     vendor/huexxx/proprietary/common/system/app/CalendarGoogle.apk:system/app/CalendarGoogle.apk \
+    vendor/huexxx/proprietary/common/system/app/CalendarGoogle.odex:system/app/CalendarGoogle.odex \
     vendor/huexxx/proprietary/common/system/app/Chrome.apk:system/app/Chrome.apk \
     vendor/huexxx/proprietary/common/system/app/FaceLock.apk:system/app/FaceLock.apk \
     vendor/huexxx/proprietary/common/system/app/FaceLock.odex:system/app/FaceLock.odex \
@@ -50,11 +51,14 @@ PRODUCT_COPY_FILES += \
     vendor/huexxx/proprietary/common/system/app/GenieWidget.apk:system/app/GenieWidget.apk \
     vendor/huexxx/proprietary/common/system/app/GenieWidget.odex:system/app/GenieWidget.odex \
     vendor/huexxx/proprietary/common/system/app/Gmail2.apk:system/app/Gmail2.apk \
+    vendor/huexxx/proprietary/common/system/app/Gmail2.odex:system/app/Gmail2.odex \
     vendor/huexxx/proprietary/common/system/app/GoogleCamera.apk:system/app/GoogleCamera.apk \
+    vendor/huexxx/proprietary/common/system/app/GoogleCamera.odex:system/app/GoogleCamera.odex \
     vendor/huexxx/proprietary/common/system/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
     vendor/huexxx/proprietary/common/system/app/GoogleContactsSyncAdapter.odex:system/app/GoogleContactsSyncAdapter.odex \
     vendor/huexxx/proprietary/common/system/app/GoogleHome.apk:system/app/GoogleHome.apk \
     vendor/huexxx/proprietary/common/system/app/GoogleTTS.apk:system/app/GoogleTTS.apk \
+    vendor/huexxx/proprietary/common/system/app/GoogleTTS.odex:system/app/GoogleTTS.odex \
     vendor/huexxx/proprietary/common/system/app/Hangouts.apk:system/app/Hangouts.apk \
     vendor/huexxx/proprietary/common/system/app/LatinImeGoogle.apk:system/app/LatinImeGoogle.apk \
     vendor/huexxx/proprietary/common/system/app/LatinImeGoogle.odex:system/app/LatinImeGoogle.odex \
@@ -80,18 +84,16 @@ PRODUCT_COPY_FILES += \
     vendor/huexxx/proprietary/common/system/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/huexxx/proprietary/common/system/framework/com.google.widevine.software.drm.odex:system/framework/com.google.widevine.software.drm.odex \
     vendor/huexxx/proprietary/common/system/lib/libAppDataSearch.so:system/lib/libAppDataSearch.so \
-    vendor/huexxx/proprietary/common/system/lib/libchrome.1916.141.so:system/lib/libchrome.1916.141.so \
-    vendor/huexxx/proprietary/common/system/lib/libcrashreporter.so:system/lib/libcrashreporter.so \
+    vendor/huexxx/proprietary/common/system/lib/libchromeview.so:system/lib/libchromeview.so \
     vendor/huexxx/proprietary/common/system/lib/libfacelock_jni.so:system/lib/libfacelock_jni.so \
+    vendor/huexxx/proprietary/common/system/lib/libfilterfw.so:system/lib/libfilterfw.so \
+    vendor/huexxx/proprietary/common/system/lib/libfilterpack_imageproc.so:system/lib/libfilterpack_imageproc.so \
     vendor/huexxx/proprietary/common/system/lib/libfacetracker.so:system/lib/libfacetracker.so \
     vendor/huexxx/proprietary/common/system/lib/libfilterframework_jni.so:system/lib/libfilterframework_jni.so \
     vendor/huexxx/proprietary/common/system/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
-    vendor/huexxx/proprietary/common/system/lib/libframesequence.so:system/lib/libframesequence.so \
-    vendor/huexxx/proprietary/common/system/lib/libfrsdk.so:system/lib/libfrsdk.so \
     vendor/huexxx/proprietary/common/system/lib/libgames_rtmp_jni.so:system/lib/libgames_rtmp_jni.so \
     vendor/huexxx/proprietary/common/system/lib/libgcam.so:system/lib/libgcam.so \
     vendor/huexxx/proprietary/common/system/lib/libgcam_swig_jni.so:system/lib/libgcam_swig_jni.so \
-    vendor/huexxx/proprietary/common/system/lib/libgmm-jni.so:system/lib/libgmm-jni.so \
     vendor/huexxx/proprietary/common/system/lib/libgoogle_recognizer_jni_l.so:system/lib/libgoogle_recognizer_jni_l.so \
     vendor/huexxx/proprietary/common/system/lib/libjni_eglfence.so:system/lib/libjni_eglfence.so \
     vendor/huexxx/proprietary/common/system/lib/libjni_filtershow_filters.so:system/lib/libjni_filtershow_filters.so \
@@ -102,16 +104,11 @@ PRODUCT_COPY_FILES += \
     vendor/huexxx/proprietary/common/system/lib/libjni_tinyplanet.so:system/lib/libjni_tinyplanet.so \
     vendor/huexxx/proprietary/common/system/lib/libjpeg.so:system/lib/libjpeg.so \
     vendor/huexxx/proprietary/common/system/lib/liblightcycle.so:system/lib/liblightcycle.so \
-    vendor/huexxx/proprietary/common/system/lib/libm2ts_player.so:system/lib/libm2ts_player.so \
     vendor/huexxx/proprietary/common/system/lib/libmoviemaker-jni.so:system/lib/libmoviemaker-jni.so \
     vendor/huexxx/proprietary/common/system/lib/libnativehelper_compat.so:system/lib/libnativehelper_compat.so \
-    vendor/huexxx/proprietary/common/system/lib/libnativehelper_compat_libc++.so:system/lib/libnativehelper_compat_libc++.so \
     vendor/huexxx/proprietary/common/system/lib/libnetjni.so:system/lib/libnetjni.so \
     vendor/huexxx/proprietary/common/system/lib/libpatts_engine_jni_api.so:system/lib/libpatts_engine_jni_api.so \
-    vendor/huexxx/proprietary/common/system/lib/libpatts_engine_jni_api_ub.210030103.so:system/lib/libpatts_engine_jni_api_ub.210030103.so \
-    vendor/huexxx/proprietary/common/system/lib/libphotoeditor_native.so:system/lib/libphotoeditor_native.so \
     vendor/huexxx/proprietary/common/system/lib/libplus_jni_v8.so:system/lib/libplus_jni_v8.so \
-    vendor/huexxx/proprietary/common/system/lib/librefocus.so:system/lib/librefocus.so \
     vendor/huexxx/proprietary/common/system/lib/librs.antblur.so:system/lib/librs.antblur.so \
     vendor/huexxx/proprietary/common/system/lib/librs.antblur_constant.so:system/lib/librs.antblur_constant.so \
     vendor/huexxx/proprietary/common/system/lib/librs.antblur_drama.so:system/lib/librs.antblur_drama.so \
@@ -120,7 +117,6 @@ PRODUCT_COPY_FILES += \
     vendor/huexxx/proprietary/common/system/lib/librs.fixedframe.so:system/lib/librs.fixedframe.so \
     vendor/huexxx/proprietary/common/system/lib/librs.grey.so:system/lib/librs.grey.so \
     vendor/huexxx/proprietary/common/system/lib/librs.image_wrapper.so:system/lib/librs.image_wrapper.so \
-    vendor/huexxx/proprietary/common/system/lib/librs.layered_filter_f32.so:system/lib/librs.layered_filter_f32.so \
     vendor/huexxx/proprietary/common/system/lib/librs.retrolux.so:system/lib/librs.retrolux.so \
     vendor/huexxx/proprietary/common/system/lib/librsjni.so:system/lib/librsjni.so \
     vendor/huexxx/proprietary/common/system/lib/libRSSupport.so:system/lib/libRSSupport.so \
