@@ -16,8 +16,8 @@ PRODUCT_MANUFACTURER := LGE
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=hammerhead \
-    BUILD_FINGERPRINT=google/hammerhead/hammerhead:4.4.3/KTU84M/1158763:user/release-keys \
-    PRIVATE_BUILD_DESC="hammerhead-user 4.4.3 KTU84M 1158763 release-keys"
+    BUILD_FINGERPRINT=google/hammerhead/hammerhead:4.4.4/KTU84Q/1253334:user/release-keys \
+    PRIVATE_BUILD_DESC="hammerhead-user 4.4.4 KTU84Q 1253334 release-keys"
 
 PRODUCT_PACKAGES += \
     CellBroadcastReceiver \
