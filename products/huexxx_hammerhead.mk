@@ -4,6 +4,9 @@ $(call inherit-product, device/lge/hammerhead/full_hammerhead.mk)
 # Inherit common product files.
 $(call inherit-product, vendor/huexxx/products/common.mk)
 
+# Inherit gapps.
+$(call inherit-product, vendor/huexxx/products/gapps.mk)
+
 # Video files
 $(call inherit-product-if-exists, frameworks/base/data/videos/VideoPackage2.mk)
 
