@@ -1,3 +1,7 @@
+# World APN list from CyanogenMod
+PRODUCT_COPY_FILES += \
+    vendor/huexxx/proprietary/common/system/etc/apns-conf.xml:system/etc/apns-conf.xml
+
 # Inherit AOSP device configuration for hammerhead.
 $(call inherit-product, device/lge/hammerhead/full_hammerhead.mk)
 
