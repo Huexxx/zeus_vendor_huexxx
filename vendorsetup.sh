@@ -1,2 +1,1 @@
-add_lunch_combo huexxx_emulator-eng
 add_lunch_combo huexxx_hammerhead-user
