@@ -16,6 +16,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/huexxx/overlay/common
 
+# Add prebuilt libmmcamera_interface.so from stock LRX21O
+PRODUCT_COPY_FILES += \
+    vendor/huexxx/prebuilts/libmmcamera_interface.so:system/lib/libmmcamera_interface.so
+
+# Add Google Photos
+PRODUCT_PACKAGES += \
+    Photos
+
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
