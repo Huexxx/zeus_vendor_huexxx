@@ -34,6 +34,40 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     GoogleHome
 
+# Add Core Google Apps
+PRODUCT_PACKAGES += \
+    ConfigUpdater \
+    GoogleContactsSyncAdapter \
+    com.google.android.maps \
+    com.google.android.media.effects \
+    com.google.widevine.software.drm \
+    GoogleBackupTransport \
+    GoogleFeedback \
+    GoogleLoginService \
+    GoogleOneTimeInitializer \
+    GooglePartnerSetup \
+    GoogleServicesFramework \
+    Phonesky \
+    PrebuiltGmsCore \
+    SetupWizard
+PRODUCT_COPY_FILES += \
+    vendor/huexxx/core_gapps/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
+    vendor/huexxx/core_gapps/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
+    vendor/huexxx/core_gapps/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
+    vendor/huexxx/core_gapps/google.xml:system/etc/preferred-apps/google.xml \
+    vendor/huexxx/core_gapps/google_build.xml:system/etc/sysconfig/google_build.xml \
+    vendor/huexxx/core_gapps/sc_google.xml:system/etc/sysconfig/google.xml \
+    vendor/huexxx/core_gapps/google_generic_update.txt:system/etc/updatecmds/google_generic_update.txt \
+    vendor/huexxx/core_gapps/libAppDataSearch.so:system/priv-app/PrebuiltGmsCore/lib/arm/libAppDataSearch.so \
+    vendor/huexxx/core_gapps/libconscrypt_gmscore_jni.so:system/priv-app/PrebuiltGmsCore/lib/arm/libconscrypt_gmscore_jni.so \
+    vendor/huexxx/core_gapps/libgames_rtmp_jni.so:system/priv-app/PrebuiltGmsCore/lib/arm/libgames_rtmp_jni.so \
+    vendor/huexxx/core_gapps/libgcastv2_base.so:system/priv-app/PrebuiltGmsCore/lib/arm/libgcastv2_base.so \
+    vendor/huexxx/core_gapps/libgcastv2_support.so:system/priv-app/PrebuiltGmsCore/lib/arm/libgcastv2_support.so \
+    vendor/huexxx/core_gapps/libgmscore.so:system/priv-app/PrebuiltGmsCore/lib/arm/libgmscore.so \
+    vendor/huexxx/core_gapps/libgms-ocrclient.so:system/priv-app/PrebuiltGmsCore/lib/arm/libgms-ocrclient.so \
+    vendor/huexxx/core_gapps/libjgcastservice.so:system/priv-app/PrebuiltGmsCore/lib/arm/libjgcastservice.so \
+    vendor/huexxx/core_gapps/libWhisper.so:system/priv-app/PrebuiltGmsCore/lib/arm/libWhisper.so
+
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
