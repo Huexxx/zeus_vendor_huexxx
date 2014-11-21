@@ -44,6 +44,13 @@ PRODUCT_PACKAGES += \
     PrebuiltExchange3Google \
     PrebuiltGmail
 
+# Add Hangouts
+PRODUCT_PACKAGES += \
+    Hangouts
+PRODUCT_COPY_FILES += \
+    vendor/huexxx/prebuilts/libcrashreporter.so:system/app/Hangouts/lib/arm/libcrashreporter.so \
+    vendor/huexxx/prebuilts/libvideochat_jni.so:system/app/Hangouts/lib/arm/libvideochat_jni.so
+
 # Add Core Google Apps
 # com.google.android.camera2 is directly copied because it is currently odexed!
 PRODUCT_PACKAGES += \
