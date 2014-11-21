@@ -153,6 +153,13 @@ PRODUCT_COPY_FILES += \
     vendor/huexxx/prebuilts/pose-y-r.8.1.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/pose-y-r.8.1.bin \
     vendor/huexxx/prebuilts/face.face.y0-y0-71-N-tree_7-wmd.bin:system/vendor/pittpatt/models/recognition/face.face.y0-y0-71-N-tree_7-wmd.bin
 
+# Add ChromeBeta
+PRODUCT_PACKAGES += \
+    ChromeBeta
+PRODUCT_COPY_FILES += \
+    vendor/huexxx/prebuilts/libchrome.2171.90.so:system/lib/libchrome.2171.90.so \
+    vendor/huexxx/prebuilts/libchromium_android_linker.so:system/lib/libchromium_android_linker.so
+
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
