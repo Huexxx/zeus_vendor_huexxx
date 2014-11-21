@@ -170,3 +170,17 @@ LOCAL_POST_INSTALL_CMD := \
         $(TARGET_OUT)/priv-app/Velvet/lib/arm/libvcdecoder_jni.so;
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_MODULE := FaceLock
+LOCAL_MODULE_TAGS := optional
+LOCAL_BUILT_MODULE_STEM := package.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_POST_INSTALL_CMD := \
+    mkdir -p $(TARGET_OUT)/app/FaceLock/lib/arm; \
+        ln -sf /system/lib/libfacelock_jni.so \
+        $(TARGET_OUT)/app/FaceLock/lib/arm/libfacelock_jni.so;
+include $(BUILD_PREBUILT)
+
