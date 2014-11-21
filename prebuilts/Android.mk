@@ -135,3 +135,38 @@ LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
 LOCAL_CERTIFICATE := PRESIGNED
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_MODULE := GoogleTTS
+LOCAL_MODULE_TAGS := optional
+LOCAL_BUILT_MODULE_STEM := package.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_POST_INSTALL_CMD := \
+    mkdir -p $(TARGET_OUT)/app/GoogleTTS/lib/arm; \
+        ln -sf /system/lib/libpatts_engine_jni_api.so \
+        $(TARGET_OUT)/app/GoogleTTS/lib/arm/libpatts_engine_jni_api.so; \
+        ln -sf /system/lib/libspeexwrapper.so \
+        $(TARGET_OUT)/app/GoogleTTS/lib/arm/libspeexwrapper.so;
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_MODULE := Velvet
+LOCAL_MODULE_TAGS := optional
+LOCAL_BUILT_MODULE_STEM := package.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_POST_INSTALL_CMD := \
+    mkdir -p $(TARGET_OUT)/priv-app/Velvet/lib/arm; \
+        ln -sf /system/lib/libgoogle_hotword_jni.so \
+        $(TARGET_OUT)/priv-app/Velvet/lib/arm/libgoogle_hotword_jni.so; \
+        ln -sf /system/lib/libgoogle_recognizer_jni_l.so \
+        $(TARGET_OUT)/priv-app/Velvet/lib/arm/libgoogle_recognizer_jni_l.so; \
+        ln -sf /system/lib/libvcdecoder_jni.so \
+        $(TARGET_OUT)/priv-app/Velvet/lib/arm/libvcdecoder_jni.so;
+include $(BUILD_PREBUILT)
+

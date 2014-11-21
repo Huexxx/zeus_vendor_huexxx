@@ -95,6 +95,47 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/huexxx/core_gapps/com.google.android.dialer.support.xml:system/etc/permissions/com.google.android.dialer.support.xml
 
+# Add Google TTS, SoundRecorder, QuickSearchBox & srec
+PRODUCT_PACKAGES += \
+    GoogleTTS \
+    SoundRecorder \
+    Velvet
+PRODUCT_COPY_FILES += \
+    vendor/huexxx/prebuilts/libpatts_engine_jni_api.so:system/lib/libpatts_engine_jni_api.so \
+    vendor/huexxx/prebuilts/libspeexwrapper.so:system/lib/libspeexwrapper.so \
+    vendor/huexxx/prebuilts/libgoogle_hotword_jni.so:system/lib/libgoogle_hotword_jni.so \
+    vendor/huexxx/prebuilts/libgoogle_recognizer_jni_l.so:system/lib/libgoogle_recognizer_jni_l.so \
+    vendor/huexxx/prebuilts/libvcdecoder_jni.so:system/lib/libvcdecoder_jni.so \
+    vendor/huexxx/prebuilts/c_fst:system/usr/srec/en-US/c_fst \
+    vendor/huexxx/prebuilts/clg:system/usr/srec/en-US/clg \
+    vendor/huexxx/prebuilts/commands.abnf:system/usr/srec/en-US/commands.abnf \
+    vendor/huexxx/prebuilts/compile_grammar.config:system/usr/srec/en-US/compile_grammar.config \
+    vendor/huexxx/prebuilts/contacts.abnf:system/usr/srec/en-US/contacts.abnf \
+    vendor/huexxx/prebuilts/dict:system/usr/srec/en-US/dict \
+    vendor/huexxx/prebuilts/dictation.config:system/usr/srec/en-US/dictation.config \
+    vendor/huexxx/prebuilts/dnn:system/usr/srec/en-US/dnn \
+    vendor/huexxx/prebuilts/endpointer_dictation.config:system/usr/srec/en-US/endpointer_dictation.config \
+    vendor/huexxx/prebuilts/endpointer_voicesearch.config:system/usr/srec/en-US/endpointer_voicesearch.config \
+    vendor/huexxx/prebuilts/ep_acoustic_model:system/usr/srec/en-US/ep_acoustic_model \
+    vendor/huexxx/prebuilts/g2p_fst:system/usr/srec/en-US/g2p_fst \
+    vendor/huexxx/prebuilts/grammar.config:system/usr/srec/en-US/grammar.config \
+    vendor/huexxx/prebuilts/hclg_shotword:system/usr/srec/en-US/hclg_shotword \
+    vendor/huexxx/prebuilts/hmmlist:system/usr/srec/en-US/hmmlist \
+    vendor/huexxx/prebuilts/hmm_symbols:system/usr/srec/en-US/hmm_symbols \
+    vendor/huexxx/prebuilts/hotword.config:system/usr/srec/en-US/hotword.config \
+    vendor/huexxx/prebuilts/hotword_classifier:system/usr/srec/en-US/hotword_classifier \
+    vendor/huexxx/prebuilts/hotword_normalizer:system/usr/srec/en-US/hotword_normalizer \
+    vendor/huexxx/prebuilts/hotword_prompt.txt:system/usr/srec/en-US/hotword_prompt.txt \
+    vendor/huexxx/prebuilts/hotword_word_symbols:system/usr/srec/en-US/hotword_word_symbols \
+    vendor/huexxx/prebuilts/metadata:system/usr/srec/en-US/metadata \
+    vendor/huexxx/prebuilts/normalizer:system/usr/srec/en-US/normalizer \
+    vendor/huexxx/prebuilts/norm_fst:system/usr/srec/en-US/norm_fst \
+    vendor/huexxx/prebuilts/offensive_word_normalizer:system/usr/srec/en-US/offensive_word_normalizer \
+    vendor/huexxx/prebuilts/phonelist:system/usr/srec/en-US/phonelist \
+    vendor/huexxx/prebuilts/phone_state_map:system/usr/srec/en-US/phone_state_map \
+    vendor/huexxx/prebuilts/rescoring_lm:system/usr/srec/en-US/rescoring_lm \
+    vendor/huexxx/prebuilts/wordlist:system/usr/srec/en-US/wordlist
+
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
