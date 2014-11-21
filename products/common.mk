@@ -39,6 +39,11 @@ PRODUCT_PACKAGES += \
     CalendarGooglePrebuilt \
     CalendarProvider
 
+# Add Gmail + Exchange3
+PRODUCT_PACKAGES += \
+    PrebuiltExchange3Google \
+    PrebuiltGmail
+
 # Add Core Google Apps
 # com.google.android.camera2 is directly copied because it is currently odexed!
 PRODUCT_PACKAGES += \
