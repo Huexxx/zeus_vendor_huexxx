@@ -89,6 +89,12 @@ PRODUCT_COPY_FILES += \
     vendor/huexxx/core_gapps/libjgcastservice.so:system/priv-app/PrebuiltGmsCore/lib/arm/libjgcastservice.so \
     vendor/huexxx/core_gapps/libWhisper.so:system/priv-app/PrebuiltGmsCore/lib/arm/libWhisper.so
 
+# Add Google Dialer Library and Permissions
+PRODUCT_PACKAGES += \
+    com.google.android.dialer.support
+PRODUCT_COPY_FILES += \
+    vendor/huexxx/core_gapps/com.google.android.dialer.support.xml:system/etc/permissions/com.google.android.dialer.support.xml
+
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
