@@ -34,6 +34,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     GoogleHome
 
+# Add Google Calendar + Provider
+PRODUCT_PACKAGES += \
+    CalendarGooglePrebuilt \
+    CalendarProvider
+
 # Add Core Google Apps
 # com.google.android.camera2 is directly copied because it is currently odexed!
 PRODUCT_PACKAGES += \
