@@ -160,6 +160,13 @@ PRODUCT_COPY_FILES += \
     vendor/huexxx/prebuilts/libchrome.2171.90.so:system/lib/libchrome.2171.90.so \
     vendor/huexxx/prebuilts/libchromium_android_linker.so:system/lib/libchromium_android_linker.so
 
+# Add Google Maps
+PRODUCT_PACKAGES += \
+    Maps
+PRODUCT_COPY_FILES += \
+    vendor/huexxx/prebuilts/maps_libcrashreporter.so:system/app/Maps/lib/arm/libcrashreporter.so \
+    vendor/huexxx/prebuilts/libgmm-jni.so:system/app/Maps/lib/arm/libgmm-jni.so
+
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
