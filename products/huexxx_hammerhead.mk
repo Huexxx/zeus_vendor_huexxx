@@ -40,3 +40,18 @@ PRODUCT_COPY_FILES += \
     vendor/huexxx/prebuilts/librsjni.so:system/lib/librsjni.so \
     vendor/huexxx/prebuilts/libRSSupport.so:system/lib/libRSSupport.so
 
+# Complete sounds
+PRODUCT_COPY_FILES += \
+    vendor/huexxx/prebuilts/RobotsforEveryone.ogg:system/media/audio/ringtones/RobotsforEveryone.ogg \
+    vendor/huexxx/prebuilts/SpagnolaOrchestration.ogg:system/media/audio/ringtones/SpagnolaOrchestration.ogg \
+    vendor/huexxx/prebuilts/audio_end.ogg:system/media/audio/ui/audio_end.ogg \
+    vendor/huexxx/prebuilts/audio_initiate.ogg:system/media/audio/ui/audio_initiate.ogg \
+    vendor/huexxx/prebuilts/KeypressInvalid.ogg:system/media/audio/ui/KeypressInvalid.ogg \
+    vendor/huexxx/prebuilts/NFCFailure.ogg:system/media/audio/ui/NFCFailure.ogg \
+    vendor/huexxx/prebuilts/NFCInitiated.ogg:system/media/audio/ui/NFCInitiated.ogg \
+    vendor/huexxx/prebuilts/NFCSuccess.ogg:system/media/audio/ui/NFCSuccess.ogg \
+    vendor/huexxx/prebuilts/NFCTransferComplete.ogg:system/media/audio/ui/NFCTransferComplete.ogg \
+    vendor/huexxx/prebuilts/NFCTransferInitiated.ogg:system/media/audio/ui/NFCTransferInitiated.ogg \
+    vendor/huexxx/prebuilts/Trusted.ogg:system/media/audio/ui/Trusted.ogg \
+    vendor/huexxx/prebuilts/VideoStop.ogg:system/media/audio/ui/VideoStop.ogg
+
