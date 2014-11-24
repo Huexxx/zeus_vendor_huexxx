@@ -16,6 +16,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/huexxx/overlay/common
 
+# Add Google Dialer + Teleservice
+PRODUCT_PACKAGES += \
+    GoogleDialer \
+    TeleService
+PRODUCT_COPY_FILES += \
+    vendor/huexxx/prebuilts/libvariablespeed.so:system/lib/libvariablespeed.so
+
 # Add prebuilt libmmcamera_interface.so from stock LRX21O
 PRODUCT_COPY_FILES += \
     vendor/huexxx/prebuilts/libmmcamera_interface.so:system/lib/libmmcamera_interface.so
