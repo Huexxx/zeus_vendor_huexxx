@@ -59,10 +59,10 @@ PRODUCT_COPY_FILES += \
     vendor/huexxx/prebuilts/libvideochat_jni.so:system/app/Hangouts/lib/arm/libvideochat_jni.so
 
 # Add Core Google Apps
-# com.google.android.camera2 is directly copied because it is currently odexed!
 PRODUCT_PACKAGES += \
     ConfigUpdater \
     GoogleContactsSyncAdapter \
+    com.google.android.camera2 \
     com.google.android.maps \
     com.google.android.media.effects \
     com.google.widevine.software.drm \
@@ -84,8 +84,6 @@ PRODUCT_COPY_FILES += \
     vendor/huexxx/core_gapps/google_build.xml:system/etc/sysconfig/google_build.xml \
     vendor/huexxx/core_gapps/sc_google.xml:system/etc/sysconfig/google.xml \
     vendor/huexxx/core_gapps/google_generic_update.txt:system/etc/updatecmds/google_generic_update.txt \
-    vendor/huexxx/core_gapps/com.google.android.camera2.jar:system/framework/com.google.android.camera2.jar \
-    vendor/huexxx/core_gapps/com.google.android.camera2.odex:system/framework/arm/com.google.android.camera2.odex \
     vendor/huexxx/core_gapps/libAppDataSearch.so:system/priv-app/PrebuiltGmsCore/lib/arm/libAppDataSearch.so \
     vendor/huexxx/core_gapps/libconscrypt_gmscore_jni.so:system/priv-app/PrebuiltGmsCore/lib/arm/libconscrypt_gmscore_jni.so \
     vendor/huexxx/core_gapps/libgames_rtmp_jni.so:system/priv-app/PrebuiltGmsCore/lib/arm/libgames_rtmp_jni.so \
