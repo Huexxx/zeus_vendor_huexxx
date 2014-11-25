@@ -92,6 +92,7 @@ PRODUCT_COPY_FILES += \
     vendor/huexxx/core_gapps/libgmscore.so:system/priv-app/PrebuiltGmsCore/lib/arm/libgmscore.so \
     vendor/huexxx/core_gapps/libgms-ocrclient.so:system/priv-app/PrebuiltGmsCore/lib/arm/libgms-ocrclient.so \
     vendor/huexxx/core_gapps/libjgcastservice.so:system/priv-app/PrebuiltGmsCore/lib/arm/libjgcastservice.so \
+    vendor/huexxx/core_gapps/libsslwrapper_jni.so:system/priv-app/PrebuiltGmsCore/lib/arm/libsslwrapper_jni.so \
     vendor/huexxx/core_gapps/libWhisper.so:system/priv-app/PrebuiltGmsCore/lib/arm/libWhisper.so
 
 # Add Google Dialer Library and Permissions
