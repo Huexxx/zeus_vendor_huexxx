@@ -185,6 +185,17 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     MediaShortcuts
 
+# Add Google Plus
+PRODUCT_PACKAGES += \
+    PlusOne
+PRODUCT_COPY_FILES += \
+    vendor/huexxx/prebuilts/plusone_libcrashreporter.so:system/app/PlusOne/lib/arm/libcrashreporter.so \
+    vendor/huexxx/prebuilts/libcronet.so:system/app/PlusOne/lib/arm/libcronet.so \
+    vendor/huexxx/prebuilts/libfilterframework_jni.so:system/app/PlusOne/lib/arm/libfilterframework_jni.so \
+    vendor/huexxx/prebuilts/libmoviemaker-jni.so:system/app/PlusOne/lib/arm/libmoviemaker-jni.so \
+    vendor/huexxx/prebuilts/libphotoeditor_native.so:system/app/PlusOne/lib/arm/libphotoeditor_native.so \
+    vendor/huexxx/prebuilts/libwebp_android.so:system/app/PlusOne/lib/arm/libwebp_android.so
+
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
